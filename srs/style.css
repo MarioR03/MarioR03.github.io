@@ -1,0 +1,179 @@
+
+@media only screen and (max-width: 1024px) {
+  #page{/*This is for splittig the bottom of the page into two containers lined up in a columb*/
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    min-height: 500px;
+  }
+
+  #right_side{
+    display: flex;
+    margin: 30px 30px 50px 30px;
+    flex-direction: column;
+    background-color: white;
+    flex-grow: inherit;
+    justify-items: center;
+  }
+
+  h1#title {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    margin: 20px 20px 50px 20px;
+    font-weight: 300;
+  }
+
+  .right_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 10px 20px;
+    background-color: white;
+  }
+
+  p#request {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    margin-left: 20px;
+  }
+}
+
+
+body {/*This is for the whole body*/
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui;
+}
+
+#header {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+  border-top: 2px solid rgb(100, 24, 187);
+}
+
+.indi_link{
+  margin: 3px 15px 3px 15px;
+  padding: 10px;
+  flex-direction: row;
+}
+
+#page{/*This is for splittig the bottom of the page into two containers lined up in a row*/
+  display: flex;
+  flex: auto;
+  min-width: 500px;
+  min-height: 500px;
+}
+
+#right_side {
+  display: flex;
+  margin: 30px 30px 50px 30px;
+  flex-direction: column;
+  background-color: white;
+  flex-grow: inherit;
+}
+
+
+.right_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 10px 10px 20px;
+  background-color: white;
+}
+
+#left_side {
+  display: flex;
+  margin: 50px 0 50px 0;
+  flex-direction: column;
+  background-color: white;
+  border-right: 1px solid lightgray;
+  align-items: center;
+}
+.left_box{
+  background-color: white;
+}
+
+#footer{
+  display: flex;
+  border-top: 1px solid lightgray;
+  padding: 20px;
+  justify-content: center;
+  box-shadow: inset 0px -7px 20px -10px lightgrey;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+
+}
+
+#resume{
+  margin-top: 40px;
+}
+
+p#request {
+  display: flex;
+  color: gray;
+  margin-left: 20px;
+}
+img {
+  height: auto;
+  max-width: 70%;
+  border-radius: 50%;
+}
+
+h1#title {
+  font-size: 2em;
+  margin: 20px 20px 50px 20px;
+  font-weight: 300;
+}
+h2 {
+  display: block;
+  font-size: 2em;
+  margin: 0 0 0 0;
+  font-weight: 300;
+}
+
+h3 {
+  display: block;
+  margin: 0 0 0 0;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+
+a#email{
+  text-decoration: none;
+  color: rgb(100, 24, 187);
+  background-color: transparent;
+}
+
+a#selected{
+  color: rgb(100, 24, 187);
+}
+
+progress {
+  display: flex;
+  height: 40px;
+  flex: 1;
+}
+
+tr{
+  display: flex;
+  flex: 1;
+}
+
+td{
+  display: flex;
+  flex: 1; 
+}
